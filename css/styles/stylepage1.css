@@ -45,6 +45,10 @@ button{
     height:170px;
     object-fit: cover;
 }
+.restos p {
+    display: flex;
+    justify-content: space-between;
+}
 .resto a {
     text-decoration: none;
     color: black;
