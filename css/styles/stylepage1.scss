@@ -1,3 +1,5 @@
+$couleurrose:#FF79DA;
+$couleurviolet:#9356DC;
 *{
     font-family: 'Raleway', sans-serif ;
     box-sizing: border-box;
@@ -37,7 +39,7 @@ a{
     
 }
 .fa-heart i:hover {
-    color: linear-gradient(#FF79DA , #9356DC);
+    color: linear-gradient($couleurrose , $couleurviolet);
 }
 #liste{
     padding:30px;
@@ -62,7 +64,7 @@ a{
             padding: 10px;
             border-radius: 20px;
             border-color: black;
-            box-shadow: 0 0 15px rgb(0 0 0 / 30%);
+            box-shadow: 0 0 15px rgba(0, 0, 0,  0.3);
         }
     }
 }
